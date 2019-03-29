@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<!--     Name                DARYL MCALLISTER
+     Student ID           S1222204
+     Programme of Study   Computing-->
+
+    <solid android:color="#ffffff" />
+
+    <padding
+        android:left="8dp"
+        android:right="8dp"
+        android:bottom="8dp"
+        android:top="8dp"
+        />
+
+    <corners android:radius="33dp" />
+</shape>

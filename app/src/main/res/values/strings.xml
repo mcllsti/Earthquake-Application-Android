@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">S1222204</string>
+
+    <string name="switchOn">Map</string>
+    <string name="switchOff">List</string>
+
+    <string-array name="selector">
+        <item>All</item>
+        <item>Largest Magnitute</item>
+        <item>Smallest Magnitute</item>
+        <item>Most Northerly</item>
+        <item>Most Southerly</item>
+        <item>Most Easterly</item>
+        <item>Most Westernly</item>
+        <item>Scottish Earthquakes</item>
+        <item>English Earthquakes</item>
+        <item>Welsh Earthquakes</item>
+        <item>Deepest Earthquake</item>
+    </string-array>
+
+
+</resources>
+
+    <!--     Name                DARYL MCALLISTER
+         Student ID           S1222204
+         Programme of Study   Computing-->

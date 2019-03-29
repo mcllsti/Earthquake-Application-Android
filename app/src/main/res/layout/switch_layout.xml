@@ -1,0 +1,11 @@
+<ToggleButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toggleButton1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:textOn="@string/switchOn"
+    android:textOff="@string/switchOff"
+    android:gravity="center" />
+    <!--     Name                DARYL MCALLISTER
+         Student ID           S1222204
+         Programme of Study   Computing-->

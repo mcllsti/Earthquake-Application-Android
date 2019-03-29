@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--     Name                DARYL MCALLISTER
+     Student ID           S1222204
+     Programme of Study   Computing-->
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/spinner"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:actionViewClass="android.widget.Spinner"
+        android:background="@android:drawable/ic_menu_search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/limitdate"
+        android:icon="@android:drawable/ic_menu_my_calendar"
+        app:showAsAction="always"
+        android:actionLayout="@layout/action_search"
+        android:title="Calander" />
+
+    <item
+        android:id="@+id/myswitch"
+        android:title=""
+        app:showAsAction="always"
+        app:actionLayout="@layout/switch_layout"
+
+        />
+
+</menu>
