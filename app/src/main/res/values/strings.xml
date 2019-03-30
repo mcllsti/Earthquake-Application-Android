@@ -3,7 +3,8 @@
 
     <string name="switchOn">Map</string>
     <string name="switchOff">List</string>
-
+    <string name="Copyright">Contains British Geological Survey materials ©NERC 2019</string>
+    <string name="NoEarthquakeDate">There is no earthquakes for this date</string>
     <string-array name="selector">
         <item>All</item>
         <item>Largest Magnitute</item>
@@ -15,7 +16,6 @@
         <item>Scottish Earthquakes</item>
         <item>English Earthquakes</item>
         <item>Welsh Earthquakes</item>
-        <item>Deepest Earthquake</item>
     </string-array>
 
 

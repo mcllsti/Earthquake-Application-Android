@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity
     //Deals with the creation of the Action Bar
     public boolean onCreateOptionsMenu(Menu menu){
 
-        Log.e("called","called");
+
         menuInflater = getMenuInflater(); //inflate menu
         menuInflater.inflate(R.menu.toolbar_menu,menu);
 
@@ -79,15 +79,15 @@ public class MainActivity extends AppCompatActivity
         }
         fragmentChanger = (ToggleButton)switcher.getActionView().findViewById(R.id.toggleButton1);
         fragmentChanger.setChecked(checked);
-        Log.e("Is Checked?1", Boolean.toString(fragmentChanger.isChecked()));
+
         if(fragmentChanger.isChecked()){
             //Set ICON to map
-            Log.e("Is Checked?2", Boolean.toString(fragmentChanger.isChecked()));
+
             fragmentChanger.setCompoundDrawablesWithIntrinsicBounds(0, 0, android.R.drawable.ic_menu_mapmode, 0);
         }
         else{
             //Set ICON to list
-            Log.e("Is Checked?3", Boolean.toString(fragmentChanger.isChecked()));
+
             fragmentChanger.setCompoundDrawablesWithIntrinsicBounds(android.R.drawable.ic_menu_sort_by_size, 0, 0, 0);
         }
 
@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity
         fragmentChanger.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(isChecked == true){
+                if(isChecked){
                     //Changes to the map Fragment
                     fragmentChanger.setCompoundDrawablesWithIntrinsicBounds(0, 0, android.R.drawable.ic_menu_mapmode, 0);
                     ft = getSupportFragmentManager().beginTransaction();
@@ -217,7 +217,7 @@ public class MainActivity extends AppCompatActivity
             ft.replace(R.id.framlayoutMap, EQListFragment);
             ft.commit();
 
-        Toast.makeText(getApplicationContext(),"Contains British Geological Survey materials ©NERC 2019",Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),R.string.Copyright,Toast.LENGTH_LONG).show();
 
     }
 

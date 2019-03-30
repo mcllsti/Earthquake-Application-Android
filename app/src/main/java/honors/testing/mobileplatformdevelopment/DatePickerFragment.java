@@ -86,7 +86,7 @@ public class DatePickerFragment extends DialogFragment
             }
         }
         if(displays.size() < 1){
-            Toast.makeText(getContext(),"There is no earthquakes for this date",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getContext(),R.string.NoEarthquakeDate,Toast.LENGTH_SHORT).show();
         }
         else{
             viewModel.setOutputList(displays);
@@ -112,7 +112,7 @@ public class DatePickerFragment extends DialogFragment
             }
         }
         if(displays.size() < 1){
-            Toast.makeText(getContext(),"There is no earthquakes for this date",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getContext(),R.string.NoEarthquakeDate,Toast.LENGTH_SHORT).show();
         }
         else{
             viewModel.setOutputList(displays);
