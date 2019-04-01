@@ -58,6 +58,8 @@ Context context;
 
 
 
+
+
     //Method that is public to allow the start of Async parsing of XML feed
     //Called only once at program start, will self call through AsyncTask
     public void UpdateMaster(Context con){

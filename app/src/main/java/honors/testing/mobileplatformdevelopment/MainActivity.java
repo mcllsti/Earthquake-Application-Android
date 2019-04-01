@@ -278,6 +278,7 @@ public class MainActivity extends AppCompatActivity
         }
         return toSet;
     }
+
     //Obtains the earthquake with the smallest magnituide
     private Earthquake SmallestMag(){
 
