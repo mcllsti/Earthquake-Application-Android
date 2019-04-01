@@ -71,16 +71,6 @@ public class Earthquake implements Serializable {
         this.geoLong = geoLong;
     }
 
-    public String getDescriptionPretty(){
-        String fullDescription = "";
-        String[] parts = this.getDescription().split(";");
-
-        for (String s: parts) {
-            fullDescription = fullDescription + s + "\n";
-        }
-
-        return fullDescription;
-    }
 
 
     ///Gets magnatuide of an earthquake
